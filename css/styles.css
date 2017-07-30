@@ -1,0 +1,84 @@
+body {
+  font-family: 'Expletus Sans', Arial, sans-serif;
+  background-image: url("../images/bg_pattern.png");
+}
+
+.navbar-default {
+  margin-top: 20px;
+}
+
+
+#actualContent {
+  background-color: #fff;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+ol li {
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+address {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 16px;
+
+}
+
+@media (min-width: 768px ) {
+  .navbar-default {
+      height: 68px;
+      font-size: 18px;
+      margin-top: 20px;
+      background: #fff;
+      border-top: 1px solid #e0dfdf;
+      border-bottom: 1px solid #e0dfdf;
+      border-radius: 0;
+      margin-bottom: 0
+  }
+
+  .navbar-default .navbar-nav > li > a,
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 68px;
+    margin-left: 55px;
+    font-weight: bold;
+  }
+
+  #navbarCollapse {
+    text-transform: uppercase;
+  }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    color: #8fbe1d;
+    background-color: inherit;
+  }
+
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #8fbe1d;
+    background-color: inherit;
+  }
+
+  #actualContent {
+    background-color: #fff;
+    margin-top: 100px;
+    padding-top: 20px;
+  }
+
+  #content {
+    background-size: cover;
+    background-image: url("../images/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1042px;
+  }
+
+}
